@@ -26,6 +26,7 @@ header {
 main {
   max-width: var(--container);
   margin: 0 auto;
+  padding: var(--space) var(--space);
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
