@@ -50,6 +50,24 @@ main > article:nth-child(3) {
   justify-content: flex-start;
 }
 
+main > article:nth-child(2) img,
+main > article:nth-child(3) img {
+  width: 100%;
+  height: 200px;        
+  object-fit: cover;
+}
+
+main > article:nth-child(2) > *:not(img),
+main > article:nth-child(3) > *:not(img) {
+  display: block;
+}
+
+main > article:nth-child(2) a,
+main > article:nth-child(3) a {
+  margin-top: auto;
+  align-self: start;
+}
+
 img {
   max-width: 100%;
   height: auto;
