@@ -73,3 +73,28 @@ img {
   height: auto;
   display: block;
 }
+
+/* Style all Read more links as buttons */
+article a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+article a:hover,
+article a:focus {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+article a:active {
+  background-color: #004b82;
+  transform: translateY(0);
+}
